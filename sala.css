@@ -10,7 +10,7 @@
     padding: 8px 20px;
     border-radius: 25px;
     font-weight: bold;
-    box-shadow: 0 4px 10px rgba(42, 82, 190, 0.2);
+    box-shadow: 0 4px 10px rgba(68, 92, 160, 0.693);
 }
 
 .status-tag {
@@ -21,12 +21,12 @@
 }
 
 .row-status-en-atención {
-    background: rgba(46, 204, 113, 0.1) !important;
+    background: rgba(138, 255, 187, 0.768) !important;
     border-left: 5px solid #2ecc71;
 }
 
 .btn-call {
-    background: #f39c12;
+    background: #5b69d3;
     color: white;
     transition: 0.3s;
 }
