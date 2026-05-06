@@ -1,6 +1,7 @@
 🏥 **Sistema de Gestión de Clínica - Grupo 4 / VITALIS**
 
 👥 Integrantes
+
     Alimer Venegas - Responsable del Módulo 1 y 2
 
     Ivana Gygax - Responsable de introducción, merge ramas y adición de datos.
@@ -13,7 +14,7 @@ Este sistema es una solución web funcional diseñada para gestionar el flujo op
 Problema que resuelve: Optimiza la organización administrativa y médica al digitalizar el registro de pacientes, la agenda de citas, el control de turnos en sala de espera y el archivo de historias clínicas en un entorno local.
 
 🧩 **Módulos Desarrollados**
-    *1. Registro de Pacientes*
+    1. Registro de Pacientes
 Funcionalidad: Permite el alta de pacientes con validaciones estrictas de DNI (8 dígitos), edad automática y registro de alergias.
 
 Dato Clave: Los pacientes registrados aquí son la base para el resto del sistema.
