@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitalis | Sistema de Gestión Clínica</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-heartbeat"></i> <span>VITALIS</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Inicio</a></li>
+            <li><div id="user-badge" class="user-chip">Admin</div></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <header class="hero">
+            <h1>Bienvenido al Sistema Médico</h1>
+            <p>Gestión integral de pacientes y atención clínica profesional.</p>
+        </header>
+
+        <section class="modules-grid">
+            <!-- Módulo 1 -->
+            <a href="pacientes.html" class="module-card">
+                <div class="icon-box"><i class="fas fa-user-injured"></i></div>
+                <h3>Pacientes</h3>
+                <p>Registro y gestión de datos personales y alergias.</p>
+                <span class="btn-access">Acceder <i class="fas fa-arrow-right"></i></span>
+            </a>
+
+            <!-- Módulo 2 -->
+            <a href="citas.html" class="module-card">
+                <div class="icon-box"><i class="fas fa-calendar-check"></i></div>
+                <h3>Citas Médicas</h3>
+                <p>Programación y control de agenda por especialidad.</p>
+                <span class="btn-access">Acceder <i class="fas fa-arrow-right"></i></span>
+            </a>
+
+            <!-- Módulo 3 -->
+            <a href="sala-espera.html" class="module-card">
+                <div class="icon-box"><i class="fas fa-clock"></i></div>
+                <h3>Sala de Espera</h3>
+                <p>Gestión de flujo y prioridad de atención en vivo.</p>
+                <span class="btn-access">Acceder <i class="fas fa-arrow-right"></i></span>
+            </a>
+
+            <!-- Módulo 4 -->
+            <a href="historial.html" class="module-card">
+                <div class="icon-box"><i class="fas fa-file-medical"></i></div>
+                <h3>Historial Clínico</h3>
+                <p>Consultas, diagnósticos y recetas médicas.</p>
+                <span class="btn-access">Acceder <i class="fas fa-arrow-right"></i></span>
+            </a>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
