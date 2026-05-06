@@ -1,4 +1,4 @@
-🏥 **Sistema de Gestión de Clínica - Grupo 4 / VITALIS**
+🏥 **Sistema de Gestión de Clínica - Grupo 6 / VITALIS**
 
 👥 Integrantes
 
