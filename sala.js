@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         alert("Atención finalizada. Ahora puede registrar el historial médico.");
     };
 
-    // Recargar automáticamente cada 30 segundoos para simular tiempo rial
+    // Recargar automáticamente cada 30 segundos para simular tiempo real
     setInterval(actualizarSala, 30000);
     actualizarSala();
 });
